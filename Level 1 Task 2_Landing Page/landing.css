@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 60px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+nav img{
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+    justify-content: space-between;
+}
+.contact{
+    margin-left: 80px;
+    align-items: center;
+    color: #fff;
+    font-size: small;
+    cursor: pointer;
+
+}
+.button{
+    display: flex;
+    color: #fff;
+    font-size: x-small;
+    justify-items: end;
+    align-items: center;
+    
+    cursor: pointer;
+    border:none;
+    border-radius:5px;
+    box-shadow: 0px 0px 2px 2px rgb(254, 254, 254);
+    color: #fff;
+}
+
+
+.hero {
+    text-align: LEFT;
+    padding: 40px;
+    background-color: #090707;
+    height: 20px;
+}
+.hero img{
+    height: 16px;
+    width: 16px;
+}
+  
+.hero h2 {
+
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.list{
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: small;
+    background-color: aqua;
+}
